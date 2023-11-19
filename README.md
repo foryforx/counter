@@ -136,6 +136,7 @@ KAL>>
 
 b. Furthermore, please provide a high-level component diagram using cloud-based design principles, utilizing components from GCP and open source tools that would support your proposed solution.
 KAL>> diagram in root folder
+[alt text] (https://github.com/foryforx/counter/blob/main/compoenent_dig.jpg)
 
 c. Finally, how would you approach continuous integration and continuous deployment (CI/CD) for this SaaS-based application? What advice would you offer the company to ensure successful implementation and maintenance of the application?
 KAL>>
