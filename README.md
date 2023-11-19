@@ -52,6 +52,7 @@ Service that generates unique sequence number for every request.
 
 Consider a hypothetical scenario where a B2B company is currently deploying a dockerised SaaS solution for many of its Clients. Its a single tenant solution that consists of a UI, Backend Service and NoSQL DB. This solution needs to be deployed, branded and its DNS configured for each Client, similar to a solution such as vercel.com, but instead deploying a bespoke SaaS solution. The company intends to expand its solution to 100+ businesses; each business can have between 50,000 to 10,000,000 users.
 a. As an engineer, what steps would you take to address this challenge? Please walk me through your approach.
+
 KAL>>
 
 1. As-Is:
@@ -135,10 +136,12 @@ KAL>>
 - Setup training process to train the team members.
 
 b. Furthermore, please provide a high-level component diagram using cloud-based design principles, utilizing components from GCP and open source tools that would support your proposed solution.
+
 KAL>> diagram in root folder
-[alt text] (https://github.com/foryforx/counter/blob/main/compoenent_dig.jpg)
+[alt text](https://raw.githubusercontent.com/foryforx/counter/main/compoenent_dig.jpg?raw=true)
 
 c. Finally, how would you approach continuous integration and continuous deployment (CI/CD) for this SaaS-based application? What advice would you offer the company to ensure successful implementation and maintenance of the application?
+
 KAL>>
 I prefer github for CI/CD.
 
